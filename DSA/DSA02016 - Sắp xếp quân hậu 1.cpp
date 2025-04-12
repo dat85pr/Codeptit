@@ -22,7 +22,7 @@ int main() {
     while (t--) {
         cin >> n;
     	dem = 0;
-		Try(1);
+	Try(1);
     	cout << dem << endl;
     }
     return 0;
