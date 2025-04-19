@@ -16,7 +16,7 @@ void Try(int i, ll ans, ll uoc){
 			break;
 		}
 		ans *= v[i];
-		Try(i + 1, ans, uoc * (j + 1);)
+		Try(i + 1, ans, uoc * (j + 1));
 	}
 }
 int main(){
