@@ -1,0 +1,36 @@
+# Ignore compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore backup/temp files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore VS Code settings (if you use it)
+.vscode/
+
+# Ignore CPH (Competitive Programming Helper) files
+.cph/
+*.cph
+
+# Ignore test folders
+/test/
+tests/
+
+# Ignore debug folders
+/debug/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific config or log files
+*.log
+
+# Ignore OneDrive metadata (since you're in OneDrive)
+*.lnk
+desktop.ini
