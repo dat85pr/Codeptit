@@ -4,7 +4,7 @@
 using namespace std;
 
 const int MAX = 100;
-int n, u, t = 0; 
+int n, u,m, t = 0; 
 int adj[MAX][MAX]; 
 vector<int> path; 
 vector<bool> visited; 
@@ -35,9 +35,9 @@ void backtrack(int current, int count) {
 int main() {
 
 
-    cin >> n >> u;
+    cin >> n >> m >> u;
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
+        for (int j = 1; j <= m; j++) {
             cin >> adj[i][j];
         }
     }
