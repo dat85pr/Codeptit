@@ -1,5 +1,4 @@
-// https://code.ptit.edu.vn/student/question/DSA08018
-// SỐ LỘC PHÁT 2
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -23,9 +22,6 @@ void testCase() {
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL); cout.tie(NULL);
-
     int T = 1; cin >> T;
     while (T--) {
         testCase();
