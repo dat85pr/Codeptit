@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdint.h>
+#include<math.h>
+#include <stdbool.h>
+typedef long long ll;
+
+int main() {
+	int t;
+	scanf("%d", &t);
+	while(t--){
+		int a, b, c, d;
+		scanf("%d %d %d %d", &a, &b, &c, &d);
+		if(c - a == d - b ) printf("YES\n");
+		else printf("NO\n");
+		
+	}
+	return 0;
+}
+
+
+
+
+
