@@ -1,1 +1,1 @@
-Exercises From code.ptit.edu.vn
+Exercises from https://code.ptit.edu.vn
