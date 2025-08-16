@@ -1,2 +1,2 @@
-s = input()
-print(s.upper())
+import math
+print(help(math))
