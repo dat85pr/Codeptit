@@ -1,6 +1,5 @@
 
-package java2025;
-public class Testjvava {
+public class CHELLO_Helloworld {
     public static void main(String[] args) {
         System.out.println("Hello PTIT.");
     }
