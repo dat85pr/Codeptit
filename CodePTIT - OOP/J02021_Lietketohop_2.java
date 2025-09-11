@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class J02021_Lietketohop_2 {
     public static int[] a = new int[10];
     public static int n, k, ok = 1;
@@ -34,5 +33,6 @@ public class J02021_Lietketohop_2 {
         }
         System.out.println();
         System.out.println("Tong cong co " + cnt + " to hop");
-    } 
+    }
+
 }
