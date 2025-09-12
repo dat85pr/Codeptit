@@ -1,6 +1,7 @@
-import java.util.*;
-public class java1 {
-   public static void main(String[] args){
+import java.util.Scanner;
+
+public class J02104_Danhsachcanh {
+    public static void main(String[] args){
         Scanner ip = new Scanner(System.in);
         int n = ip.nextInt();
         int[][] a = new int[n + 1][n + 1];
