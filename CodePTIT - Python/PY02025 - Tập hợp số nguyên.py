@@ -1,0 +1,10 @@
+from math import *
+n, m = map(int, input().split())
+a = set(input().split())
+b = set(input().split())
+giao = sorted(a & b)
+hieu1 = sorted(a - b)
+hieu2 = sorted(b - a)
+print(*giao)
+print(*hieu1)
+print(*hieu2)
