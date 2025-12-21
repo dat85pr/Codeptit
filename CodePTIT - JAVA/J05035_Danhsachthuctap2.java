@@ -24,7 +24,7 @@ class Sinhvien implements Comparable<Sinhvien>{
         return String.format("%d %s %s %s %s %s", id, msv, name, lop, email, dn);
     }
 }
-public class J05034_Danhsachthuctap1 {
+public class J05035_Danhsachthuctap2 {
     public static void main(String[] args){
         Scanner ip = new Scanner(System.in);
         int t = ip.nextInt();
